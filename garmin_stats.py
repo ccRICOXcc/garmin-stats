@@ -8,7 +8,7 @@ start = heute.replace(day=1)
 # (key, Anzeigename, Emoji, Stichwörter im Typ, auszuschließen, Modus)
 # Modus "km" = Distanz anzeigen, "zeit" = Dauer anzeigen
 SPORTARTEN = [
-    ("rad",        "Rad",         "🚴", ["cycling", "biking", "bike", "ride"], ["indoor", "virtual"], "km"),
+    ("rad",        "Rad",         "🚴", ["cycling", "biking", "bike", "ride", "indoor_cycling"], "km"),
     ("laufen",     "Laufen",      "🏃", ["running"],                           [],                    "km"),
     ("schwimmen",  "Schwimmen",   "🏊", ["swimming"],                          [],                    "km"),
     ("wandern",    "Wandern",     "🥾", ["hiking"],                            [],                    "km"),
