@@ -9,7 +9,7 @@ with PersonalApiAuthenticator() as auth:
     token = auth.obtain_token(os.environ["GARMIN_PERSONAL_API_KEY"])
 
 LAUFEN = {"running", "trail_running", "treadmill_running"}
-RAD = {"cycling", "road_biking", "mountain_biking", "gravel_cycling"}
+RAD = {"cycling", "road_biking", "mountain_biking", "gravel_cycling", "indoor_cycling"}
 
 km = {"laufen": 0.0, "rad": 0.0}
 with GarminPersonalApiClient(token.access_token) as client:
